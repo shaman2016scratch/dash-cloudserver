@@ -3,7 +3,23 @@
 
 <head>
   <title>Cloud Data Server</title>
-  <script src="/dash-cloudserver/public/banned_black_ip.browser.js"></script>
+  <script>
+    black_i_list = fetch('https://shaman2016scratch.github.io/dash-cloudserver/public/ip-blacklist.json', {
+  method: "GET",
+  headers: {
+    "Content-Type": "application/json",
+  },
+})
+ip = fetch('https://api.ipify.org/', {
+  method: "GET",
+  headers: {
+    "Content-Type": "application/json",
+  },
+})
+if (black_i_list.list[ip]) {
+  document = '<p>You are blocked by the cloud server.</p>'
+}
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
