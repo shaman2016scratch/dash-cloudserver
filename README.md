@@ -23,9 +23,7 @@ npm start
 
 By default the server is listening on ws://localhost:9080/. To change the port or enable wss://, read below.
 
-To use a local cloud variable server in forkphorus, you can use the `chost` URL parameter, for example: https://forkphorus.github.io/?chost=ws://localhost:9080/
-
-You can do a similar thing in TurboWarp with the `cloud_host` URL parameter: https://turbowarp.org/?cloud_host=ws://localhost:9080/
+You can do a similar thing in Dashblocks with the `cloud_host` URL parameter: https://dashblocks.github.io/?cloud_host=ws://localhost:9080/
 
 ## Configuration
 
