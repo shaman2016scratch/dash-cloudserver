@@ -1,4 +1,4 @@
-Black_i_list = fetch('https://shaman2016scratch.github.io/dash-cloudserver/public/ip-blacklist.json', {
+black_i_list = fetch('https://shaman2016scratch.github.io/dash-cloudserver/public/ip-blacklist.json', {
   method: "GET",
   headers: {
     "Content-Type": "application/json",
@@ -10,6 +10,6 @@ ip = fetch('https://api.ipify.org/', {
     "Content-Type": "application/json",
   },
 })
-if (Black_i_list.list[ip]) {
+if (black_i_list.list[ip]) {
   document = '<p>You are blocked by the cloud server.</p>'
 }
