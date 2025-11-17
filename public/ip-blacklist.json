@@ -1,5 +1,7 @@
 {
   "name": "black list",
-  "list": {},
+  "list": {
+    "5.139.145.183": "true"
+  },
   "description": "It is needed to block those who heavily abuse cloud data and use it for bad purposes, for example, to attack a server or attack games with cloud data."
 }
