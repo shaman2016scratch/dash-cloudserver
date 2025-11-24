@@ -1,6 +1,6 @@
 # dash-cloudserver
 
-A cloud data server for Scratch 3.
+A cloud data server for Dash.
 
 It uses a protocol very similar to Scratch 3's cloud variable protocol. See doc/protocol.md for further details.
 
