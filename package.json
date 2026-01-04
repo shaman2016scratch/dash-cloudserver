@@ -8,7 +8,7 @@
     "test": "jest",
     "check": "tsc"
   },
-  "author": "GarboMuffin",
+  "author": "Shaman2016Scratch",
   "license": "MIT",
   "dependencies": {
     "finalhandler": "^2.1.0",
