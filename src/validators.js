@@ -6,10 +6,10 @@ const CLOUD_PREFIXES = ['☁ ', ':cloud: ', '_dash-cloud_'];
 const VARIABLE_NAME_MAX_LENGTH = 1024;
 
 /** The maximum length of a variable's value. */
-const VALUE_MAX_LENGTH = 110000;
+const VALUE_MAX_LENGTH = 110050;
 
 /** Maximum length of usernames, inclusive. */
-const USERNAME_MAX_LENGTH = 20;
+const USERNAME_MAX_LENGTH = 22;
 /** Minimum length of usernames, inclusive. */
 const USERNAME_MIN_LENGTH = 1;
 /** Regex for usernames to match. Letters, numbers, -, and _ */
