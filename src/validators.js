@@ -13,7 +13,7 @@ const USERNAME_MAX_LENGTH = 22;
 /** Minimum length of usernames, inclusive. */
 const USERNAME_MIN_LENGTH = 1;
 /** Regex for usernames to match. Letters, numbers, -, and _ */
-const USERNAME_REGEX = /^[0-9_-/n;]+$/i;
+const USERNAME_REGEX = /^[0-9_-.,]+$/i;
 
 /**
  * @param {unknown} username
